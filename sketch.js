@@ -8,7 +8,7 @@ function setup() {
  c = createSprite(200,0,900,1);
  d = createSprite(200,400,900,1);
  snake = createSprite(200,200,10,10);
- food = new apple(8,8);
+ food = new apple(Math.random(),Math.random,8,8);
 }
 
 function draw() {
